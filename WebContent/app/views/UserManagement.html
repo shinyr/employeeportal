@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>User Details</title>
+</head>
+<body>
+	<div class="container">
+		<input type="text" ng-model="enteredValue" width="20%">
+		<button type="button"class="btn btn-default" ng-click="searchUser(enteredValue)">Search</button>
+	</div>
+<table border="1">
+<tr>
+ <strong>Employee Details </strong>
+</tr>
+<tr>
+<td>Name</td>
+<td>Emp-Id</td>
+<td>Age</td>
+<td>Designation</td>
+</tr>
+<tr ng-repeat="emp in empDetails">
+<td> {{ emp.name }}</td>
+<td> {{ emp.empId }}</td>
+<td> {{ emp.age }}</td>
+<td> {{ emp.designation }}</td>
+</tr>
+</table>
+
+</body>
+</html>

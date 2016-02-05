@@ -1,0 +1,26 @@
+ [{
+  "name": "Adwik",
+  "empId": 1000,
+  "age": 22,
+  "designation": "ProgrammerAnalyst Trainee"
+},
+{
+  "name": "Gautham",
+  "empId": 1001,
+  "age": 24,
+  "designation": "ProgrammerAnalyst"
+},
+{
+  "name": "Ria",
+  "empId": 1010,
+  "age": 24,
+  "designation": "ProgrammerAnalyst"
+},
+{
+  "name": "Alen",
+  "empId": 1021,
+  "age": 26,
+  "designation": "Associate"
+}
+]
+

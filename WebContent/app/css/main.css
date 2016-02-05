@@ -1,0 +1,43 @@
+body {
+    background-color: lightblue;
+    margin:80px 80px 100px 100px;
+}
+
+.header {
+  height: 60px;
+  background-color: #84bbc8;
+  text-align: center;
+  font-style: oblique;
+  font-size: 40px;
+  position:fixed;
+  top:0px;
+  left:0px;
+  width:100%;	
+}
+
+.footer{
+  height: 60px;
+  background-color: #84bbc8;
+  text-align: center;
+  font-style: oblique;
+  font-size: 40px;
+  position:fixed;
+  left:0px;
+  bottom: 0px;
+  width:100%;	
+}
+
+a{
+    display: block;
+    height: 60px;
+    width:15%;	
+    background: #4E9CAF;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold; 
+    border-style: solid;
+    border-width: 5px;  
+    
+}
